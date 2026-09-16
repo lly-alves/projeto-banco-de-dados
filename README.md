@@ -2,19 +2,19 @@
 
 ## Sistema de Cadastro de Clientes
 
-Este projeto apresenta uma estrutura simples de banco de dados para cadastro e consulta de clientes.
+Este projeto apresenta uma estrutura simples de banco de dados para cadastro e consulta de clientes utilizando SQL.
 
-### Objetivo
+## Objetivo
 
-Demonstrar conhecimentos básicos de banco de dados utilizando SQL, incluindo:
+Demonstrar conhecimentos básicos de banco de dados, incluindo:
 
 - criação de tabela;
 - definição de campos;
-- chave primária;
+- utilização de chave primária;
 - inserção de registros;
-- consulta de dados.
+- realização de consultas SQL.
 
-### Estrutura da tabela
+## Estrutura da tabela
 
 A tabela `clientes` possui os seguintes campos:
 
@@ -26,12 +26,32 @@ A tabela `clientes` possui os seguintes campos:
 | telefone | VARCHAR(20) | Telefone do cliente |
 | cidade | VARCHAR(50) | Cidade do cliente |
 
-### Arquivo principal
+## Arquivos do projeto
 
-O arquivo `banco_clientes.sql` contém os comandos SQL para criar a tabela, inserir dados de exemplo e realizar uma consulta.
+### banco_clientes.sql
 
-### Tecnologias utilizadas
+Contém os comandos SQL para:
+
+- criar a tabela `clientes`;
+- inserir registros de exemplo;
+- realizar uma consulta inicial.
+
+### consultas_clientes.sql
+
+Contém consultas SQL para:
+
+- listar todos os clientes;
+- listar clientes de uma determinada cidade;
+- ordenar clientes por nome;
+- consultar nome e e-mail dos clientes.
+
+## Tecnologias utilizadas
 
 - SQL
-- GitHub
 - Banco de Dados Relacional
+- GitHub
+
+## Autor
+
+kelly Cristina de F. Alves
+Projeto desenvolvido como atividade acadêmica de Banco de Dados.
